@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1qLkl46GnfO76WolNi-X_eSQvqys3X1p7
 """
 
-!pip install matplotlib
+
 
 import matplotlib.pyplot as plt
 
