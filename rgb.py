@@ -22,9 +22,9 @@ def plot_rgb_color(r, g, b, plot_size=1):
     plt.show()
 
 def explore_rgb_colors(plot_size=0.5):
-    for r in range(0, 256, 32):
-        for g in range(0, 256, 32):
-            for b in range(0, 256, 32):
+    for r in range(0, 256, 126):
+        for g in range(0, 256, 126):
+            for b in range(0, 256, 126):
                 plot_rgb_color(r, g, b, plot_size)
                 print('#',r,g,b)
 
